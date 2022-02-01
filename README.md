@@ -8,6 +8,8 @@
 
 A simple python script to dump remote files through a local file read or local file inclusion web vulnerability.
 
+![](./.github/example.gif)
+
 ## Features
 
  - [x] Dump a single file with `-f /path/to/remote/file.txt`
